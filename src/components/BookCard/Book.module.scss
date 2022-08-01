@@ -1,0 +1,42 @@
+@use "../../assets/palette";
+.Book {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 30px;
+
+    box-shadow: 0px 0px 15px 5px black;
+
+    &:hover {
+        box-shadow: 0px 0px 30px 10px black;
+    }
+    &:active {
+        box-shadow: 0px 0px 30px 10px gray;
+    }
+
+    & > ul {
+        padding: 0px;
+        list-style: none;
+
+        & > li > p {
+            text-align: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    }
+    & > img {
+        margin: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px 5px;
+    }
+    & > p {
+        text-decoration: underline;
+    }
+}
+
+h4 {
+    padding: 0px;
+    margin: 0px;
+}

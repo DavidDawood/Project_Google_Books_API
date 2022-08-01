@@ -1,0 +1,7 @@
+@use "../../assets/partials";
+.Grid {
+    display: grid;
+    margin: auto;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
